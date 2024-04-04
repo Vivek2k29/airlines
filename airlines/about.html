@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+    <style>.images{
+        .column {
+            float: left;
+            width: 33.33%;
+            padding: 5px;
+          }
+    }
+    .img{
+    
+            margin-top: 10px;
+            
+            margin-right: 20px;
+            
+            margin-bottom: 30px;
+            
+            margin-left: 40px;
+            
+    
+            
+            
+    }
+    .img{
+        border: 1px solid black;
+        border-radius: 20px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+        padding: 5px;
+    
+    }
+    
+    
+    
+    
+    .img{
+        filter: grayscale(100%);
+    }
+    .img:hover{
+        filter: grayscale(0%);
+    }
+    
+    
+    .con{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(248, 243, 243);
+        border: 1px solid rgb(246, 242, 242);
+        border-radius: 20px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+        padding: 5px;
+       
+       
+    }
+    .card{
+        width: 500px;
+        height: 300px;
+        position: relative;
+        overflow: hidden;
+    }
+    .card>img{
+        width:100%;
+        height: 100%;
+        filter: brightness(0.6);
+    
+    }
+    .cont{
+        position: absolute;
+        bottom: -100px;
+        left: 10px;
+        color: white;
+        transition: all 0.3s;
+    }
+    .card:hover .cont{
+        bottom: 10px;
+    
+    }
+    .card:hover img{
+        filter: brightness(0.6);
+    }
+    .row{
+        display: flex;
+    }
+    .info{display: inline-block;
+    
+    }
+    .head{
+        font-size: 2rem;
+        color: white;
+        letter-spacing: 10px;
+        font-family: monospace;
+        border-right: 5px solid;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: 
+        typing 2s steps(15),
+        cursor 4s step-end infinite alternate ;
+    }
+    @keyframes cursor{
+        50%{
+            border-color: transparent;
+        }
+    }
+    @keyframes typing{
+        from{width:0}
+    }
+    footer{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    footer{
+        background-color: #111;
+    }
+    .footerContainer{
+        width: 100%;
+        padding: 70px 30px 20px ;
+    }
+    .socialIcons{
+        display: flex;
+        justify-content: center;
+    }
+    .socialIcons a{
+        text-decoration: none;
+        padding:  10px;
+        background-color: white;
+        margin: 10px;
+        border-radius: 50%;
+    }
+    .socialIcons a i{
+        font-size: 2em;
+        color: black;
+        opacity: 0,9;
+    }
+    /* Hover affect on social media icon */
+    .socialIcons a:hover{
+        background-color: #111;
+        transition: 0.5s;
+    }
+    .socialIcons a:hover i{
+        color: white;
+        transition: 0.5s;
+    }
+    .footerNav{
+        margin: 30px 0;
+    }
+    .footerNav ul{
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+    }
+    .footerNav ul li a{
+        color:white;
+        margin: 20px;
+        text-decoration: none;
+        font-size: 1.3em;
+        opacity: 0.7;
+        transition: 0.5s;
+    
+    }
+    .footerNav ul li a:hover{
+        opacity: 1;
+    }
+    .footerBottom{
+        background-color: #000;
+        padding: 20px;
+        text-align: center;
+    }
+    .footerBottom p{
+        color: white;
+    }
+    .designer{
+        opacity: 0.7;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 400;
+        margin: 0px 5px;
+    }
+    @media (max-width: 700px){
+        .footerNav ul{
+            flex-direction: column;
+        } 
+        .footerNav ul li{
+            width:100%;
+            text-align: center;
+            margin: 10px;
+        }
+        .socialIcons a{
+            padding: 8px;
+            margin: 4px;
+        }
+    }
+    .msg{
+    
+        background-color: rgb(248, 243, 243);
+        border: 1px solid rgb(246, 242, 242);
+        border-radius: 20px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+        padding: 5px;
+        width: 200PX;
+        height: 200PX;
+        margin-left: 43%;
+    
+    }
+    body{
+        background-image: url("https://img.freepik.com/free-vector/gradient-black-background-with-cubes_23-2149138432.jpg");
+        background-size: 100%;
+    }</style>
+</head>
+<body>
+    <h1 style="text-align: center; color: white;" >ABOUT</h1>
+    <div class="info" style="color: white;"><h1 class="head">COMPANY POLICY</h1>    
+    </div>
+    <div class="row">
+    <div class="con">
+        <div class="card">
+            <img src="https://i.pinimg.com/originals/c1/a4/0a/c1a40a93bf1c5f126010544550cf2f42.jpg" alt="">
+            <div class="cont"><h1>Company Policy</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum hic a corporis quo iste, qui eligendi neque impedit quaerat, ex labore unde consectetur atque eos quis totam quia laboriosam minus?</p>
+            </div>
+        </div>
+    </div>
+    <div class="con">
+        <div class="card">
+            <img src="https://i.pinimg.com/736x/c0/c1/9a/c0c19a0b53d845345fa28ae4f766354e.jpg" alt="">
+            <div class="cont"><h1>Company Services</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum hic a corporis quo iste, qui eligendi neque impedit quaerat, ex labore unde consectetur atque eos quis totam quia laboriosam minus?</p>
+            </div>
+        </div>
+    </div>
+    <div class="con">
+        <div class="card">
+            <img src="https://pilotinstitute.com/wp-content/uploads/2023/04/10-Inspirational-Quotes-about-Flying.jpg" alt="">
+            <div class="cont"><h1>Company Security</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum hic a corporis quo iste, qui eligendi neque impedit quaerat, ex labore unde consectetur atque eos quis totam quia laboriosam minus?</p>
+            </div>
+        </div>
+    </div>
+</div>
+<br><br><br><br><br>
+<div class="info"><h1 class="head" style="color: white;">PLACES OF INTEREST</h1></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="images">
+        <a href="Garage.html"><img src="https://preply.com/wp-content/uploads/2018/04/shopping_bags.jpg" alt="SHOPPING MALLS" width="22%" height="60%" class="img"></a>
+        <a href="rest.html"><img src="https://www.visitpasadena.com/imager/s3_us-west-1_amazonaws_com/pasadena-2020/images/Food-Drink/ALLEN_BONE_KETTLE_050217-39_6c94fcbeb44c7b2b255c29b7ccbcea14.jpg" alt="RESTARANTS" width="32%" height="60%" class="img"></a>
+        <a href="hotel.html"><img src="https://www.kayak.co.in/news/wp-content/uploads/sites/76/2023/08/THEME_HOTEL_SIGN_FIVE_STARS_FACADE_BUILDING_GettyImages-1320779330-3.jpg" alt="HOTELS" width="24%" height="60%"  class="img"></a>
+
+    </div>
+    <h1 class="head" class>LOCATION</h1>
+    <div class="map" style="margin-left: 500px; border-radius: 2%;">
+        <p style="align-items: center;"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.718283570952!2d77.2126241!3d28.5782211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce28a1710a4d9%3A0x103ec81c390e7659!2sIndian%20Airports%20Kamgar%20Union!5e0!3m2!1sen!2sin!4v1710878385703!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+        <br><br><br>
+        <h1 class="head" style="text-align: center;">Leave a message</h1>
+        <div class="msg">
+        
+        <label for="name">NAME</label>
+        <input type="text" name="name" id="name">
+        <label for="gmail">Gmail</label>
+        <input type="gmail" name="gmail" id="gmail">
+        <br><br>
+
+        <label for="ms"></label>
+        <textarea name="ms" id="" placeholder="Leave a message"></textarea>
+        
+        
+        
+        
+        
+        </div>
+
+
+
+
+
+    </div>
+    <br>
+    <br><br>
+    <footer>
+        <div class="footerContainer">
+            <div class="socialIcons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <div class="footerNav">
+                <ul><li><a href="">Home</a></li>
+                    <li><a href="">News</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">our Team</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </footer>
+    
+</body>
+</html>
